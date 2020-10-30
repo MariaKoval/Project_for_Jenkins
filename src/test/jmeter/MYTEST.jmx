@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="2.4" jmeter="4.0">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 1" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="MYTEST" enabled="true">
       <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.2.3.17. Please contact support@blazemeter.com for further support.</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -196,13 +196,13 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/auth/clone?_=1604065665629" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/auth/clone?_=1604065707045" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">_</stringProp>
-                  <stringProp name="Argument.value">1604065665629</stringProp>
+                  <stringProp name="Argument.value">1604065707045</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -229,13 +229,13 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/index.html?tid=1604065671662" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/index.html?tid=1604066393484" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="tid" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">tid</stringProp>
-                  <stringProp name="Argument.value">1604065671662</stringProp>
+                  <stringProp name="Argument.value">1604066393484</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -306,13 +306,13 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-static.xcritical.com/data/instumentsDescriptionsEn.json?v=1604065675410" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-static.xcritical.com/data/instumentsDescriptionsEn.json?v=1604066398025" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="v" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">v</stringProp>
-                  <stringProp name="Argument.value">1604065675410</stringProp>
+                  <stringProp name="Argument.value">1604066398025</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -396,19 +396,19 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/keepalive/?sid=77b85643-4e16-41ed-a930-e49575b0bfbb&amp;t=1604065683747" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://uat-trading.maxitrade.com/keepalive/?sid=34594674-d11e-4fd0-80a3-e42a7a4c9629&amp;t=1604066406075" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="t" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">t</stringProp>
-                  <stringProp name="Argument.value">1604065683747</stringProp>
+                  <stringProp name="Argument.value">1604066406075</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
                 <elementProp name="sid" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">sid</stringProp>
-                  <stringProp name="Argument.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Argument.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -487,13 +487,13 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://test-api.maxitrade.com/account/logonWithToken?token=4d477c3e9c21406e83e1e83287711929" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://test-api.maxitrade.com/account/logonWithToken?token=5b6b348065ff45868f24d0e247654beb" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="token" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">token</stringProp>
-                  <stringProp name="Argument.value">4d477c3e9c21406e83e1e83287711929</stringProp>
+                  <stringProp name="Argument.value">5b6b348065ff45868f24d0e247654beb</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -587,7 +587,7 @@
                 </elementProp>
                 <elementProp name="SID" elementType="Header">
                   <stringProp name="Header.name">SID</stringProp>
-                  <stringProp name="Header.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Header.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                 </elementProp>
                 <elementProp name="UMID" elementType="Header">
                   <stringProp name="Header.name">UMID</stringProp>
@@ -621,7 +621,7 @@
                 </elementProp>
                 <elementProp name="SID" elementType="Header">
                   <stringProp name="Header.name">SID</stringProp>
-                  <stringProp name="Header.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Header.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                 </elementProp>
                 <elementProp name="UMID" elementType="Header">
                   <stringProp name="Header.name">UMID</stringProp>
@@ -655,7 +655,7 @@
                 </elementProp>
                 <elementProp name="SID" elementType="Header">
                   <stringProp name="Header.name">SID</stringProp>
-                  <stringProp name="Header.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Header.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                 </elementProp>
                 <elementProp name="UMID" elementType="Header">
                   <stringProp name="Header.name">UMID</stringProp>
@@ -689,7 +689,7 @@
                 </elementProp>
                 <elementProp name="SID" elementType="Header">
                   <stringProp name="Header.name">SID</stringProp>
-                  <stringProp name="Header.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Header.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                 </elementProp>
                 <elementProp name="UMID" elementType="Header">
                   <stringProp name="Header.name">UMID</stringProp>
@@ -723,7 +723,7 @@
                 </elementProp>
                 <elementProp name="SID" elementType="Header">
                   <stringProp name="Header.name">SID</stringProp>
-                  <stringProp name="Header.value">77b85643-4e16-41ed-a930-e49575b0bfbb</stringProp>
+                  <stringProp name="Header.value">34594674-d11e-4fd0-80a3-e42a7a4c9629</stringProp>
                 </elementProp>
                 <elementProp name="UMID" elementType="Header">
                   <stringProp name="Header.name">UMID</stringProp>
@@ -819,11 +819,11 @@
             <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
               <doubleProp>
                 <name>RandomTimer.range</name>
-                <value>33339.0</value>
+                <value>25979.0</value>
                 <savedValue>0.0</savedValue>
               </doubleProp>
-              <stringProp name="ConstantTimer.delay">16669.5</stringProp>
-              <stringProp name="TestPlan.comments">Recorded time was 33339 milliseconds</stringProp>
+              <stringProp name="ConstantTimer.delay">12989.5</stringProp>
+              <stringProp name="TestPlan.comments">Recorded time was 25979 milliseconds</stringProp>
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
